@@ -1,0 +1,19 @@
+.btn {
+  &_primary {
+    height: 30px;
+  }
+  &_cross {
+    height: 30px;
+    width: 30px;
+  }
+  &_save {
+    height: 38px;
+  }
+  &_cross-option {
+    height: 38px;
+    width: 38px;
+  }
+  &_active {
+    transform: rotate(45deg);
+  }
+}

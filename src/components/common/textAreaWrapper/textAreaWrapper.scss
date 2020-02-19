@@ -1,0 +1,23 @@
+.text-area {
+  position: relative;
+  
+  &__input {
+    resize: none; 
+    overflow: hidden;
+    &_header {
+      font-size: 20px !important;
+      font-weight: 500 !important;
+    }
+  }
+
+  &__counter {
+    position: absolute;
+    bottom: 5px;
+    right: 6px;
+  }
+  &__label {
+    margin-left: -1000000000000000000000px;
+    z-index: -1000;
+    position: absolute;
+  }
+}

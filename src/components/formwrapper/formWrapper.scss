@@ -1,0 +1,15 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  max-width: 730px;
+  padding: 14px;
+  width: 70vw;
+  border: 1px solid rgb(218, 209, 209);
+  border-radius: 5px;
+}
