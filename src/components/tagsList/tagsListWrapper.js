@@ -9,7 +9,6 @@ export default ({
   isTagsListOpen, 
   onCrossClick 
 }) => {
-  //console.log(isTagsListOpen)
   return (
   <div className={`tags-list ${isTagsListOpen ? "": "tags-list_disabled"}`}>
     <CrossButton
@@ -17,11 +16,8 @@ export default ({
       isActive={isTagsListOpen}
       onClick={onCrossClick}
     />
-    {
+    { //TODO: add sort 
       Object.keys(tags)
-        // .reduce((acc, key) => {
-
-        // }, [])
         .map(key => (
         <Button 
           key={key} 

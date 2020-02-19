@@ -287,7 +287,6 @@ export default class FormContainer extends Component {
   }
 
   render() {
-    //console.log(this.state.photos)
     return (
       <FormWrapper 
         state={this.state}

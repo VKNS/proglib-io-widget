@@ -9,18 +9,17 @@ const MyButton = ({
   variant="", 
   isActive=false,
   children 
-}) => {
-  
-  return (<Button 
-            className={`btn ${classes}`}
-            onClick={onClick}
-            variant={variant}
-            active={isActive}
-            size="sm"
-          >
-            {value}
-            {children}
-          </Button>)
-}
+}) => (
+  <Button 
+    className={`btn ${classes}`}
+    onClick={onClick}
+    variant={variant}
+    active={isActive}
+    size="sm"
+  >
+    {value}
+    {children}
+  </Button>)
 
-export default MyButton;
+
+export default MyButton;  
