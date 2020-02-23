@@ -1,14 +1,13 @@
 import React from "react";
-import Button from "../common/button/button";
-import PhotoUploader from "../common/uploadInput/PhotoUploader";
-import "./footer.scss";
+import Button from "../../common/button/button";
+import PhotoUploader from "../../common/uploadInput/PhotoUploader";
 
 
 const Footer = ({
   onSaveButtonClick, 
   onPhotoInputChange
 }) => (
-  <div className="footer">
+  <div className="form__footer">
     <PhotoUploader 
       onChange={onPhotoInputChange}
     />

@@ -11,4 +11,8 @@
   width: 70vw;
   border: 1px solid rgb(218, 209, 209);
   border-radius: 5px;
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

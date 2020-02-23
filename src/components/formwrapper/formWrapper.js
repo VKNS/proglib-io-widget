@@ -5,7 +5,7 @@ import InputTitles from "../../constants/inputTitles";
 import CharCountWrapper from "../common/charCountWpapper/charCountWrapper";
 import OptionsList from "../optionsList/optionsList";
 import ErrorComponent from "../common/errorWrapper/errorComponent";
-import Footer from "../footer/footer";
+import Footer from "./footer/footer";
 import "./formWrapper.scss";
 
 
